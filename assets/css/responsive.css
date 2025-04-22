@@ -494,6 +494,15 @@
         max-width: 130px;
     }
 
+    .secTopHead img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footDesp p {
+        font-size: 14px;
+        line-height: 18px;
+    }
 
     /* HOME-PAGE-END */
 }
@@ -779,6 +788,25 @@
 
     .trustedLogo a {
         max-width: 100px;
+    }
+
+    .secTopHead img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .socialIcnsFt li {
+        height: 25px;
+        width: 25px;
+    }
+
+    .socialIcnsFt li a {
+        padding: 6.5px;
+    }
+
+    .footDesp p {
+        font-size: 13px;
+        line-height: 16px;
     }
 
     /* HOME-PAGE-END */
