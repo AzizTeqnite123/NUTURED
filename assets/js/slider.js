@@ -51,7 +51,7 @@ const instaGallery = new Swiper(".instaGallery", {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const swiperWrapper = document.querySelector(
+  var swiperWrapper = document.querySelector(
     ".trustedSwiper .swiper-wrapper"
   );
   const slide = swiperWrapper.querySelector(".swiper-slide");
@@ -65,11 +65,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const trustedSwiper = new Swiper(".trustedSwiper", {
     slidesPerView: "auto",
-    spaceBetween: 0,
+    spaceBetween: 40,
     loop: true,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
+    },
+    breakpoints: {
+      150: {
+        spaceBetween: 10,
+      },
+      576: {
+        spaceBetween: 15,
+      },
+      769: {
+        spaceBetween: 20,
+      },
+      1025: {
+        spaceBetween: 40,
+      },
     },
     speed: 15000,
   });
