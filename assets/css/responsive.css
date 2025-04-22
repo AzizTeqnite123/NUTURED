@@ -490,6 +490,11 @@
         font-size: 14px;
     }
 
+    .trustedLogo a {
+        max-width: 130px;
+    }
+
+
     /* HOME-PAGE-END */
 }
 
@@ -760,8 +765,8 @@
     }
 
     .footerTop::after {
-        width: 60px;
-        height: 80px;
+        width: 55px;
+        height: 73px;
     }
 
     .banCntMn {
@@ -770,6 +775,10 @@
 
     .expBxRt {
         border-radius: 5px;
+    }
+
+    .trustedLogo a {
+        max-width: 100px;
     }
 
     /* HOME-PAGE-END */

@@ -73,10 +73,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     breakpoints: {
       150: {
-        spaceBetween: 10,
+        spaceBetween: 20,
       },
       576: {
-        spaceBetween: 15,
+        spaceBetween: 20,
       },
       769: {
         spaceBetween: 20,
@@ -85,6 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 40,
       },
     },
-    speed: 15000,
+    speed: 50000,
   });
 });

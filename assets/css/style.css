@@ -390,7 +390,7 @@ img {
 
 .trustedLogo {
     display: block;
-    width: auto;
+    width: 100%;
 }
 
 .swiper-pagination-bullet-active {
@@ -713,19 +713,17 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    width: fit-content;
 }
 
 .trustedLogo a {
-    max-width: 190px;
-    min-width: 190px;
+    width: 190px;
     display: block;
 }
 
 .trustedLogo a img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     filter: brightness(0) saturate(100%) invert(68%) sepia(85%) saturate(1%) hue-rotate(322deg) brightness(110%) contrast(80%);
     transition: all ease .3s;
 }
@@ -734,13 +732,24 @@ img {
     filter: brightness(0) saturate(100%) invert(35%) sepia(62%) saturate(294%) hue-rotate(347deg) brightness(96%) contrast(86%);
 }
 
+.trustedLogoPr {
+    width: fit-content;
+}
+
+.trstdPrtnrRight {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
 .trustedSwiper {
     margin: 0 auto;
     width: 100%;
 }
 
 .trustedSwiper .swiper-wrapper .swiper-slide {
-    width: fit-content !important;
+    width: fit-content;
 }
 
 :is(.trustedSwiper) .swiper-wrapper {
