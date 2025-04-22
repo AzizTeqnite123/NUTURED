@@ -9,7 +9,7 @@ const testiSlider = new Swiper(".testiSlider", {
   },
   breakpoints: {
     150: {
-      slidesPerView: 1.1,
+      slidesPerView: 1.6,
       spaceBetween: 10,
     },
     576: {
@@ -32,15 +32,15 @@ const instaGallery = new Swiper(".instaGallery", {
   spaceBetween: 30,
   breakpoints: {
     150: {
-      slidesPerView: 1.1,
+      slidesPerView: 2,
       spaceBetween: 10,
     },
     576: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 15,
     },
     769: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 20,
     },
     1025: {

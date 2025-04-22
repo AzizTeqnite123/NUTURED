@@ -493,7 +493,7 @@
     /* HOME-PAGE-END */
 }
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width : 575px) {
     /* GLOBAL */
 
     .container {
@@ -532,7 +532,7 @@
     }
 
     .banDescHldr {
-        right: -20px;
+        right: -15px;
         bottom: -80px;
         min-height: 120px;
         min-width: 140px;
@@ -638,22 +638,138 @@
     }
 
     .lmtdEdtnImgHldr img {
-        height: 250px;
+        height: 230px;
     }
 
     .lmtdEdtnImgHldr img:nth-of-type(3n + 1) {
-        border-radius: 100px 0 0 0;
+        border-radius: 50px 0 0 0;
         order: 1;
     }
 
     .lmtdEdtnImgHldr img:nth-of-type(3n + 2) {
         order: 3;
         grid-column: span 2;
+        height: 170px;
     }
 
     .lmtdEdtnImgHldr img:nth-of-type(3n + 3) {
-        border-radius: 0 100px 0 0;
+        border-radius: 0 50px 0 0;
         order: 2;
+    }
+
+    .testiBoxSlider p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .testiBoxSlider .quoteIc {
+        height: 15px;
+        width: 30px;
+    }
+
+    .authNmeDet {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .testiMonialMain .testiSlider {
+        padding-bottom: 30px;
+    }
+
+    .swiper-pagination-bullet {
+        height: 10px !important;
+        width: 10px !important;
+    }
+
+    .trstdPrtnrLeft h3 {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .trstdPrtnrLeft p {
+        font-size: 13px;
+    }
+
+    .instaGallImg {
+        height: 170px;
+    }
+
+    .trustedPrtnrRow {
+        gap: 20px;
+    }
+
+    .footerTop {
+        padding: 40px 0 10px;
+    }
+
+    .footLogo {
+        height: 40px;
+        width: 120px;
+    }
+
+    .footDesp {
+        margin-top: 10px;
+        max-width: 300px;
+    }
+
+    .footerForm {
+        max-width: 300px;
+        margin-top: 15px;
+    }
+
+    .footerForm form input {
+        height: 40px;
+        padding: 10px;
+        padding-right: 110px;
+    }
+
+    .footerForm form input,
+    .footerForm form input::placeholder,
+    .footerForm form button {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .footerForm form button {
+        height: 32px;
+        right: 4px;
+        padding: 8px 16px;
+    }
+
+    .footerLinks {
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .socialIcnsFt {
+        margin-top: 15px;
+    }
+
+    .footerLinks li a {
+        font-size: 13px;
+    }
+
+    .footerBtm p {
+        font-size: 12px;
+    }
+
+    .footerBtm {
+        padding: 10px 0;
+    }
+
+    .footerTop::after {
+        width: 60px;
+        height: 80px;
+    }
+
+    .banCntMn {
+        max-width: 350px;
+    }
+
+    .expBxRt {
+        border-radius: 5px;
     }
 
     /* HOME-PAGE-END */

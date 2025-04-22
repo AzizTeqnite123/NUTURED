@@ -244,7 +244,7 @@ img {
     width: 100%;
     background-image: url(../img/exp-sec-vec-btm.svg);
     background-repeat: no-repeat;
-    background-position: left ;
+    background-position: left;
     position: absolute;
     bottom: -160px;
     right: 0;
@@ -390,7 +390,7 @@ img {
 
 .trustedLogo {
     display: block;
-    width: 100%;
+    width: auto;
 }
 
 .swiper-pagination-bullet-active {
@@ -581,6 +581,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -717,6 +718,7 @@ img {
 
 .trustedLogo a {
     max-width: 190px;
+    min-width: 190px;
     display: block;
 }
 
@@ -738,7 +740,7 @@ img {
 }
 
 .trustedSwiper .swiper-wrapper .swiper-slide {
-    width: 100% !important;
+    width: fit-content !important;
 }
 
 :is(.trustedSwiper) .swiper-wrapper {
